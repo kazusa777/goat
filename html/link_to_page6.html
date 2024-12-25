@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    #back-to-home-btn {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background-color: #cc0000;
+      color: #fff;
+      font-size: 18px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    #back-to-home-btn:hover {
+      background-color: #990000;
+    }
+
+    .image-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      padding: 20px;
+    }
+
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <button id="back-to-home-btn" onclick="location.href='index.html'">回到主頁面</button>
+
+  <div class="image-container">
+    <img src="images/jpg.jpg" alt="jpg.jpg">
+    <img src="images/MEE8.jpg" alt="MEE8.jpg">
+    <img src="images/gettyimages-1164046558-612x612.jpg" alt="gettyimages-1164046558-612x612.jpg">
+    <img src="images/2887780-PH.jpg" alt="2887780-PH.jpg">
+    <img src="images/9129291bb0c01fb98100f268e916b6bb-scaled.jpg" alt="9129291bb0c01fb98100f268e916b6bb-scaled.jpg">
+    <img src="images/sheep-450x300.jpg" alt="sheep-450x300.jpg">
+    <img src="images/FFCGROIaQAIF0kp.jpg" alt="FFCGROIaQAIF0kp.jpg">
+    <img src="images/a9fee92e70fc4e1f9bb3042d0ce8b9d8.jpg" alt="a9fee92e70fc4e1f9bb3042d0ce8b9d8.jpg">
+    <img src="images/2416439548.jpg" alt="2416439548.jpg">
+  </div>
+</body>
+</html>
